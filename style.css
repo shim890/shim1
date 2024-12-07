@@ -1,0 +1,149 @@
+/* أسلوب عام */
+body {
+    font-family: 'Amiri', serif; /* خط عربي رائع */
+    margin: 0;
+    padding: 0;
+    background-color: #fbf7f0;
+    color: #4b2e2e;
+    line-height: 1.8;
+    font-size: 18px; /* حجم النص الأساسي */
+}
+
+header {
+    background: linear-gradient(45deg, #8c6246, #5c3b2e);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* تكبير حجم العنوان */
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.5em; /* حجم أكبر للوصف */
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #4b2e2e;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em; /* زيادة حجم الروابط */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #8c6246;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5em; /* تكبير حجم العناوين */
+    color: #8c6246;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em; /* نصوص أكبر */
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 70%; /* تقليل عرض الصورة */
+    max-width: 600px;
+    margin: 20px 0;
+    border: 5px solid #8c6246;
+    border-radius: 10px; /* جعل الصورة أكثر جمالية */
+}
+
+section img + p {
+    font-size: 1.1em;
+    color: #5c3b2e;
+}
+
+footer {
+    background-color: #4b2e2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* تأثيرات الانتقال */
+a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+/* أسلوب عام */
+body {
+    font-family: 'Amiri', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbf7f0;
+    color: #4b2e2e;
+    line-height: 1.7;
+    font-size: 16px; /* تصغير حجم النص الأساسي */
+}
+
+header h1 {
+    font-size: 2.5em; /* تقليل حجم العنوان */
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em; /* حجم الوصف */
+    margin-top: 10px;
+}
+
+nav ul li a {
+    font-size: 1.1em; /* تصغير الروابط قليلاً */
+}
+
+section h2 {
+    font-size: 2em; /* تقليل حجم العناوين */
+    color: #8c6246;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em; /* تقليل حجم النصوص قليلاً */
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 0.9em; /* تصغير النص في التذييل */
+}
+section img {
+    width: 60%; /* تقليل العرض قليلاً */
+    max-width: 500px; /* تقليل الحد الأقصى للعرض */
+    margin: 20px 0;
+    border: 5px solid #8c6246;
+    border-radius: 10px;
+}
